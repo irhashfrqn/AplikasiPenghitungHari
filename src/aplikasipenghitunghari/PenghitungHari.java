@@ -231,7 +231,7 @@ public class PenghitungHari extends javax.swing.JFrame {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         String dateString = formatter.format(selectedDateUtil);
 
-        // Mengonversi string menjadi LocalDate
+        // Convert string menjadi LocalDate
         LocalDate selectedDate = LocalDate.parse(dateString, DateTimeFormatter.ISO_DATE); // Mengonversi ke LocalDate
 
         // Mendapatkan tanggal hari ini
